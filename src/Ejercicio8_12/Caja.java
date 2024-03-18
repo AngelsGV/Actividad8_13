@@ -31,12 +31,8 @@ public class Caja {
         this.etiqueta = ""; //definimos también la etiqueta como vacío.
     }
 
-    public double calcularVolumen() {
-        return this.ancho * this.alto * this.fondo;
-    }
-
     public double getVolumen() {
-        return calcularVolumen();
+        return this.ancho * this.alto * this.fondo;
     }
 
     public void setEtiqueta(String etiqueta) {
