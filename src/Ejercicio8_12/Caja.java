@@ -58,7 +58,7 @@ public class Caja {
 
     @Override
     public String toString() {
-        return String.format("Caja de dimensiones: %.2fm x %.2fm x %.2fm, Etiqueta: %s",
+        return String.format("Caja de dimensiones: " + ancho +" x "+ alto +" x " + fondo +", Etiqueta: " + etiqueta,
                 this.ancho, this.alto, this.fondo, this.etiqueta);
     }
 }
