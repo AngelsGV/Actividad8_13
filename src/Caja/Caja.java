@@ -12,13 +12,13 @@ public class Caja {
 //lo de la unidad lo he buscado. También lo podría hacer con unidad.toLowerCase().equals("cm")) --> No habia visto
 // que en el enuniado me dice que debe ser Unidad unidad. Por lo que me he buscado la manera de introducir cm y m
 // como cadena de caracteres.
-        if (unidad.equals("cm")) {
+        if (unidad.equals(Unidad.cm)) {
             //comparamos 2 cadenas de caracteres ignorando mayusculas y minusculas.
             //Convertir de cm a m para despues el getVolumen() en m^3
             this.ancho = ancho / 100;
             this.alto = alto / 100;
             this.fondo = fondo / 100;
-        } else if (unidad.equals("m")) {
+        } else if (unidad.equals(Unidad.m)) {
             this.ancho = ancho;
             this.alto = alto;
             this.fondo = fondo;
