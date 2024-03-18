@@ -46,8 +46,8 @@ public class Caja {
 
     public void imprimirEtiqueta() { //pese que no me lo pide directamente,
         // es necesario este método para sacar la etiqueta.
-        if (!this.etiqueta.isEmpty()) {
-            System.out.println("Etiqueta");
+        if (!this.etiqueta.isEmpty()) {//Si hay etiqutea
+            System.out.println("Etiqueta:");
             System.out.println(this.etiqueta);
         } else {
             System.out.println("La caja no tiene etiqueta.");
@@ -55,7 +55,8 @@ public class Caja {
     }
 
     @Override
-    public String toString() { //En este metodo no estoy muy segura de como lo quieres
+    public String toString() { //En este metodo no estoy muy segura de como lo quieres,
+        // por lo que te muestro directamente los elementos
 
     return "Dimensiones: " + ancho + " x " + alto + " x " + fondo + ", Etiqueta: " + etiqueta;
     }

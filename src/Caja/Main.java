@@ -17,6 +17,6 @@ public class Main {
         System.out.println(caja);
 
         // Calcular y mostrar el volumen de la caja
-        System.out.println("Volumen de la caja: " + caja.getVolumen());
+        System.out.println("Volumen de la caja: " + caja.getVolumen() + "m^3");
     }
 }
