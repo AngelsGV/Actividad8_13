@@ -4,13 +4,14 @@ package Caja;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Crear una instancia de la clase Caja
+
+        // Crear Caja
         Caja caja = new Caja(10, 20, 30, "cm");
 
-        // Establecer una etiqueta para la caja
+        // Modificar la etiqueta
         caja.setEtiqueta("Caja de prueba");
 
-        // Imprimir la etiqueta de la caja
+        // Sacar la etiqueta de la caja
         caja.imprimirEtiqueta();
 
         // Imprimir la representación de la caja

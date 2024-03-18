@@ -12,8 +12,8 @@ public class Caja {
 //lo de la unidad lo he buscado. También lo podría hacer con unidad.toLowerCase().equals("cm"))
         if (unidad.equalsIgnoreCase("cm")) {
             //comparamos 2 cadenas de caracteres ignorando mayusculas y minusculas.
-
-            this.ancho = ancho / 100;  // Convertir de cm a m
+            //Convertir de cm a m para despues el getVolumen() en m^3
+            this.ancho = ancho / 100;
             this.alto = alto / 100;
             this.fondo = fondo / 100;
         } else if (unidad.equalsIgnoreCase("m")) {
