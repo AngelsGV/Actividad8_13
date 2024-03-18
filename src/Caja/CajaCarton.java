@@ -4,10 +4,10 @@ public class CajaCarton extends Caja { // CajaCarton subclase de caja
 
     public CajaCarton(double ancho, double alto, double fondo, String unidad) {//Constructor
         // Llamada al constructor de la superclase
-        super(ancho, alto, fondo, unidad); //herencia igual que en caja :) esta en metros
+        super(ancho, alto, fondo, "cm"); //herencia igual que en caja :) esta en metros
     }
 
-    //80% del volumen real y solo se da en cm.
+    //80% del volumen real y solo se da en cm. --> En el constructor lo hemos pasado a m
     @Override
     public double getVolumen() {
 
@@ -29,18 +29,10 @@ public class CajaCarton extends Caja { // CajaCarton subclase de caja
     public double calcularSuperficieTotal() {
         // Calcular la superficie total de cartón utilizado para construir todas las cajas
         double superficieTotal = (ancho * alto * 2) + (ancho * fondo * 2) + (alto * fondo * 2);
+        //formula de superficie total de una caja (SA) = 2lw+2lh+2hw
         return superficieTotal;
     }
 
-    // Programa de prueba
-    public static void main(String[] args) {
-        // Crear una instancia de CajaCarton
-        CajaCarton cajaCarton = new CajaCarton(10, 20, 30, "cm");
-
-        // Imprimir el volumen de la caja de cartón
-        System.out.println("Volumen de la caja de cartón: " + cajaCarton.getVolumen() + " m^3");
-
-        // Imprimir la representación de la caja de cartón
-        System.out.println(cajaCarton);
-    }
 }
+//----------------------------------------------
+//Problema: la entrada de caja de cartón solo puede permitir que se introduzcan los datos en m.
