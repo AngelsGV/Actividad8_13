@@ -69,3 +69,5 @@ public class Caja {
 //Caused by: java.lang.ClassNotFoundException: Ejercicio8_12.Prueba
 //
 //Process finished with exit code 1
+
+//Resolucio: dia 18/3/24. Cree otro archivo, copie tal cual y funciona :D
