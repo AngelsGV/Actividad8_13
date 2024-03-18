@@ -20,18 +20,11 @@ public class CajaCarton extends Caja { // CajaCarton subclase de caja
     @Override
     public String toString() {
 
-        double superficieTotal = (ancho * alto * 2) + (ancho * fondo * 2) + (alto * fondo * 2);
+        double superficieTotal = (2 * ancho * alto ) + (2 * ancho * fondo) + (2 * alto * fondo);
 
         return super.toString() + ", Superficie total de cartón utilizado: " + superficieTotal + " cm^2";
     }
 
-    // Método para calcular la superficie total de cartón utilizado
-    public double calcularSuperficieTotal() {
-        // Calcular la superficie total de cartón utilizado para construir todas las cajas
-        double superficieTotal = (ancho * alto * 2) + (ancho * fondo * 2) + (alto * fondo * 2);
-        //formula de superficie total de una caja (SA) = 2lw+2lh+2hw
-        return superficieTotal;
-    }
 
 }
 //----------------------------------------------
