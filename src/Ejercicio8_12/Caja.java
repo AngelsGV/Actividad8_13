@@ -13,6 +13,8 @@ public class Caja {
     Caja(double ancho, double alto, double fondo, String unidad ){//constructor caja
 //lo de la unidad lo he buscado. También lo podría hacer con unidad.toLowerCase().equals("cm"))
         if (unidad.equalsIgnoreCase("cm")) {
+            //comparamos 2 cadenas de caracteres ignorando mayusculas y minusculas.
+
             this.ancho = ancho / 100;  // Convertir de cm a m
             this.alto = alto / 100;
             this.fondo = fondo / 100;
@@ -32,7 +34,8 @@ public class Caja {
     }
 
     public double getVolumen() {
-        return this.ancho * this.alto * this.fondo;
+        double volumen = ancho*alto*fondo;
+        return volumen;
     }
 
     public void setEtiqueta(String etiqueta) {
