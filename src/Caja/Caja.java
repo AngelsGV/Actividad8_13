@@ -8,15 +8,15 @@ public class Caja {
      protected String etiqueta;
 
     //Uso double porque m y cm puede estar definido en decimal
-    Caja(double ancho, double alto, double fondo, String unidad ){//constructor caja
+    Caja(double ancho, double alto, double fondo, Unidad unidad ){//constructor caja
 //lo de la unidad lo he buscado. También lo podría hacer con unidad.toLowerCase().equals("cm"))
-        if (unidad.equalsIgnoreCase("cm")) {
+        if (unidad.equals("cm")) {
             //comparamos 2 cadenas de caracteres ignorando mayusculas y minusculas.
             //Convertir de cm a m para despues el getVolumen() en m^3
             this.ancho = ancho / 100;
             this.alto = alto / 100;
             this.fondo = fondo / 100;
-        } else if (unidad.equalsIgnoreCase("m")) {
+        } else if (unidad.equals("m")) {
             this.ancho = ancho;
             this.alto = alto;
             this.fondo = fondo;
