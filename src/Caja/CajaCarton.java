@@ -36,3 +36,5 @@ public class CajaCarton extends Caja { // CajaCarton subclase de caja
 }
 //----------------------------------------------
 //Problema: la entrada de caja de cartón solo puede permitir que se introduzcan los datos en m.
+//Le he dado tantas vueltas que ya no sé en que unidades va el progtama. Otro día lo miraré.
+//Lo demás OK.
