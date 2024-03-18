@@ -39,9 +39,9 @@ public class Caja {
     }
 
     public void setEtiqueta(String etiqueta) {
-        if (etiqueta.length() <= 30) {
+        if (etiqueta.length() <= 30) { //igual o menor que 30 caracteres
             this.etiqueta = etiqueta;
-        } else {
+        } else {//Si tiene más.
             System.out.println("La etiqueta excede los 30 caracteres.");
         }
     }
@@ -57,7 +57,7 @@ public class Caja {
 
     @Override
     public String toString() {
-        return String.format("Caja de dimensiones: " + ancho +" x "+ alto +" x " + fondo +", Etiqueta: " + etiqueta,
-                this.ancho, this.alto, this.fondo, this.etiqueta);
+
+    return "Dimensiones: " + ancho + " x " + alto + " x " + fondo + ", Etiqueta: " + etiqueta;
     }
 }
