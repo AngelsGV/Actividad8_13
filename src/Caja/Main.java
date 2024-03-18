@@ -20,13 +20,14 @@ public class Main {
         // Calcular y mostrar el volumen de la caja
         System.out.println("Volumen de la caja: " + caja.getVolumen() + "m^3");
 
-        // Crear una instancia de CajaCarton
+        // CajaCarton
         CajaCarton cajaCarton = new CajaCarton(10, 20, 30, "cm");
 
-        // Imprimir el volumen de la caja de cartón
+        System.out.println(cajaCarton);
+
+        // Volumen de la caja de cartón
         System.out.println("Volumen de la caja de cartón: " + cajaCarton.getVolumen() + " m^3");
 
-        // Imprimir la representación de la caja de cartón
-        System.out.println(cajaCarton);
+
     }
 }
