@@ -9,7 +9,9 @@ public class Caja {
 
     //Uso double porque m y cm puede estar definido en decimal
     Caja(double ancho, double alto, double fondo, Unidad unidad ){//constructor caja
-//lo de la unidad lo he buscado. También lo podría hacer con unidad.toLowerCase().equals("cm"))
+//lo de la unidad lo he buscado. También lo podría hacer con unidad.toLowerCase().equals("cm")) --> No habia visto
+// que en el enuniado me dice que debe ser Unidad unidad. Por lo que me he buscado la manera de introducir cm y m
+// como cadena de caracteres.
         if (unidad.equals("cm")) {
             //comparamos 2 cadenas de caracteres ignorando mayusculas y minusculas.
             //Convertir de cm a m para despues el getVolumen() en m^3
@@ -32,7 +34,7 @@ public class Caja {
     }
 
     public double getVolumen() {
-        double volumen = ancho*alto*fondo;
+        double volumen = ancho*alto*fondo;  //Otra formula matemática
         return volumen;
     }
 

@@ -4,7 +4,7 @@ public class CajaCarton extends Caja { // CajaCarton subclase de caja
 
     public CajaCarton(double ancho, double alto, double fondo, Unidad unidad) {//Constructor
         // Llamada al constructor de la superclase
-        super(ancho, alto, fondo, Unidad.valueOf("cm")); //herencia igual que en caja :)
+        super(ancho, alto, fondo, Unidad.cm); //herencia igual que en caja :)
     }
 
     //80% del volumen real y solo se da en cm. --> En el constructor lo hemos pasado a m
