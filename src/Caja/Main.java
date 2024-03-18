@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Crear Caja
-        Caja caja = new Caja(10, 20, 30, "m");
+        Caja caja = new Caja(10, 20, 30, "cm");
 
         // Modificar la etiqueta
         caja.setEtiqueta("Caja de prueba");
