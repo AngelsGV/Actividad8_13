@@ -44,9 +44,10 @@ public class Caja {
         }
     }
 
-    public void imprimirEtiqueta() {
+    public void imprimirEtiqueta() { //pese que no me lo pide directamente,
+        // es necesario este método para sacar la etiqueta.
         if (!this.etiqueta.isEmpty()) {
-            System.out.println("Etiqueta:");
+            System.out.println("Etiqueta");
             System.out.println(this.etiqueta);
         } else {
             System.out.println("La caja no tiene etiqueta.");
