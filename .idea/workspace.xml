@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759aaf64-6119-4b78-a7bc-d06de5d99903" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/src/Caja/Caja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Caja/Caja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Caja/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Caja/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="759aaf64-6119-4b78-a7bc-d06de5d99903" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710774783310</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1710775165318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710775165318</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
