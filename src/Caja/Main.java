@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Crear Caja
-        Caja caja = new Caja(10, 20, 30, "cm");
+        Caja caja = new Caja(10, 20, 30, Unidad.cm); //un fart per cambiar el programa en Unitat
 
         // Modificar la etiqueta
         caja.setEtiqueta("Caja de prueba");
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Volumen de la caja: " + caja.getVolumen() + "m^3");
 
         // CajaCarton
-        CajaCarton cajaCarton = new CajaCarton(10, 20, 30, "cm");
+        CajaCarton cajaCarton = new CajaCarton(10, 20, 30, Unidad.cm);
 
         System.out.println(cajaCarton);
 
